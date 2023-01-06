@@ -134,36 +134,6 @@ Develop an ETL pipeline that loads our dimensions and facts from the source file
 
 <br><br>
 
-## Exercise 3: Merging (Optional)
-
-We now would like to add a new ETL task to update issued tickets.
-
-Take a look at the source file: [`data/air_travel/ticket_updates/ticket_updates.csv`](./data/air_travel/ticket_updates/ticket_updates.csv)
-
-This file contains some updates to our tickets. Either the _price_, _seat number_, or the _status_ has been updated for these tickets.
-
-Create an ETL task that:
-1. Loads the updates into an staging table
-1. Use the SQL merge statement to update the _tickets_ fact
-
-<br><br>
-
-## Exercise 4: SCD Type 2 (Optional)
-
-This exercise is optional. Let's add a new ETL task to update our passengers info as an SCD Type 2 dimension.
-
-Open the source file: [`data/air_travel/passenger_updates/passenger_updates.csv`](./data/air_travel/passenger_updates/passenger_updates.csv)
-
-This file changes the address for few of our passengers.
-
-Create an ETL task that:
-- Loads the updates into an staging table
-- Use an SQL merge statement to correctly update a SCD type 2 dimension:
-    - Assign new UUIDs as the surrogate keys
-    - Update the previous effective end date
-    - Insert rows with updated address info and a new effective start date
-    - You can use the _record date_ in this file for the start date
-
 ## Setup/Installation Requirements
 
 * Clone by inputting following into terminal: 
