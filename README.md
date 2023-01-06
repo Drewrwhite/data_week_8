@@ -138,7 +138,7 @@ Develop an ETL pipeline that loads our dimensions and facts from the source file
 
 * Clone by inputting following into terminal: 
   ```bash
-  git clone https://github.com/Drewrwhite/data_week_7.git
+  git clone https://github.com/Drewrwhite/data_week_8.git
   ```
 * Navigate to directory:
   ```bash
