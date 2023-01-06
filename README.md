@@ -130,7 +130,7 @@ Develop an ETL pipeline that loads our dimensions and facts from the source file
 - You don't need a lookup for _airlines_ and _airports_ since we use their IATA as dimension keys
 - Link to the _passengers_ dimension by its surrogate key
 - You need to perform a lookup to the _passengers_ dimension
-- Load all teh tickets
+- Load all the tickets
 
 <br><br>
 
