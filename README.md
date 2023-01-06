@@ -93,6 +93,8 @@ Using draw.io create a data model. Your data model MUST meet the following requi
 1. IATA codes can be used as the primary key for both _airlines_ and _airports_
 1. Use the t-ticket number as the primary key for the _tickets_ fact
 
+![air_travel](images/air_travel.drawio.png)  
+_Data model created as outlined in exercise. Using [`data/air_travel/tickets.json`](./data/air_travel/tickets.json)_
 <br><br>
 
 ## Exercise 2: Data Loading and Normalization
